@@ -1,0 +1,322 @@
+@-moz-document domain("acamica.com") {
+    @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body{
+        background-color:#333;
+        color:#f4f4f3;
+    }
+    
+    .sb-scroll-area{
+        background-color:#333 !important;
+        color:#f4f4f3;
+    }
+    .lesson-video-right{
+        color:#f4f4f3;
+        background-color:#333 !important;
+    }
+    .lesson-title{
+        color:white;
+        background-color:#333;
+    }
+    .lesson-actions{
+        background-color:#333;
+    }
+    .row-link-list{
+        background-color:#333 !important;
+    }
+    .number{
+        color:white !important;
+    }
+    .box-small-title{
+        background-color:#3e94b3;
+        color:#f4f4f3;
+    }
+    .top-bar-wrap{
+        background-color:#3e94b3;
+        color: #f4f4f3;
+    }
+    .sb-ctroll-area{
+        background-color:#333;
+        color:white;
+    }
+    .invideo-markers{
+        background-color:#333;
+        color:white;
+    }
+    .side-video-list .list-item>a, .side-video-list li>a{
+        color:white !important;
+        background-color:#333;
+        
+    }
+    .row-link-list.no-pad li a span{
+        color:white;
+    }
+    
+    ul li a span.time{
+        color:white !important;
+    }
+    
+    
+    ul li a i{
+        color:#3e94b3;
+        background-color:#333;
+    }
+    
+    .nav{
+        background-color:#333;
+    }
+    
+    
+    /*Icons*/
+    /*Lesson Right*/
+    .icon-label{
+        color:white !important;
+    }
+    /* Lesson down*/
+    .icon-map{
+        color:white !important;
+    }
+    .icon-alert-triangle{
+        color:#e8c32d !important;
+    }
+    .icon-open-in-browser{
+        color:#34809b !important;
+    }
+    
+    .nav-tabs>li.active>a{
+        color:#333 !important;
+        border-color:#333;
+    }
+    
+    /* Estructura de Youtube */
+    
+    player-progress-bar .hr-yt-loaded{
+        background-color:darkviolet;
+        
+    }
+    player-progress-bar:hover{
+        transform:scale(1.01);
+        transition:300ms;
+        cursor:pointer;
+    }
+    
+    .hr-yt-volume-hr-bar .hr-yt-setted,.hr-yt-volume-hr-bar::before {
+        display:none !important;
+    }
+    
+    .hr-yt-volume-hr-bar::before {
+        display:none !important;
+    }
+    
+    /*Pagina de modulos*/
+    .level,.clearfix{
+        background-color:#333;
+    }
+    
+    label{
+        color:white !important;
+    }
+    input icon,.icon-search{
+        color:white !important;
+    }
+    .icon-video{
+        color:white !important;
+    }
+    .icon-text-block{
+        color:white !important;
+    }
+    .icon-assignment-check{
+        color:white !important;
+    }
+    .top-bar-wrap{
+        background-color:#333;
+    }
+    .progress-outline{
+        background-color:#363f42 !important;
+    }
+    .dashboard .box h3{
+        background:#333;
+        color:white;
+    }
+    .box.shadow{
+        background-color:#424242;
+    }
+    
+    .content-title{
+        color:white;
+    }
+    
+    /* SideBar */
+    .sidebar__content-wrapper{
+        background-color:#464e5b !important;
+        color:white !important;
+    }
+    .sidebar__user{
+        color:white !important;
+    }
+    .icon-caret-down{
+        color:white;
+    }
+    .sidebar__rapid-access-text{
+        color:white !important;
+    }
+    .icon-home{
+        color:white !important;
+    }
+    .icon-puzzle-piece{
+        color:white !important;
+    }
+    
+    .icon-globe{
+        color:white !important;
+    }
+    
+    .icon-help-circle{
+        color:white !important;
+    }
+    .icon icon-alert-circle,.sidebar__error-icon{
+        color: #b05959 !important;
+    }
+    
+    /*Home*/
+    
+    ac-top-bar.contrast .title>.parent>a{
+        color:white;
+    }
+    ac-top-bar.contrast .menu-icon{
+        color:white;
+    }
+    
+    .card-content-frame .card-content .title{
+        color:white !important;
+    }
+    .card-content-frame .card-content .desc{
+        color:white;
+    }
+    
+    .card-content-frame{
+        background-color:#424242;
+    }
+    .card .card-bottom>span{
+        background-color:#424242;
+        color:white;
+    }
+    
+    
+    /* logger */
+    .path-summary{
+        background-color:#414141;
+    }
+    .path-line{
+        background-color:black;
+    }
+    
+    .heading{
+        color:white !important;
+    }
+    .summary-title{
+        color:white;
+    }
+    
+    .summary-courses{
+        color:white !important;
+    }
+    
+    .btn.btn-secondary{
+        color:white;
+    }
+    .card .card-bottom .user-bullets a .name{
+        color:white;
+    }
+    
+    .icon-menu{
+        color:white;
+    }
+    .link-container.side-down-pad a{
+        color:white !important;
+    }
+    
+    .row-link-list>li>a:first-child, .row-list>li{
+        background-color: #414141 !important;
+       
+    }
+    
+    .row-link-list>li>a:first-child, .row-list>li .name{
+        color:white;
+    }
+    /*TY v.2
+    
+    ***Agregamos www.youtube.com##.ytp-scroll-min.ytp-pause-overlay al adBlock optable además: youtube.com##.ytp-suggestion-set
+    
+    */
+    
+    .hr-yt-volume-hr-bar .hr-yt-setted {
+        background-color: #7457ae
+    }
+    
+    .hr-hover-indicator {
+        height: 35px;
+        z-index: 20;
+        position: absolute;
+        bottom: 43px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+    
+    .hr-hover-indicator span {
+        display: block;
+        padding: 0 8px;
+        background-color: rgba(255,255,255,.9);
+        font-size: 12px;
+        line-height: 22px;
+        color: #000;
+        border-radius: 1px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    }
+    
+    .hr-hover-indicator span::after,.hr-hover-indicator::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent
+    }
+    
+    .hr-hover-indicator span::after {
+        position: absolute;
+        left: 50%;
+        margin-left: -5px;
+        border-top: 5px solid #3e94b3;
+    ;
+    }
+    
+    .hr-hover-indicator::after {
+        border-top: 5px solid #3e94b3;
+        margin: 1px auto 0
+    }
+    
+    .dropdown-menu.dropdown-player-control {
+        margin-bottom: 15px;
+        width: 150px
+    }
+    
+    .dropdown-control .dropdown-menu>li>a {
+        line-height: normal;
+        padding: 5px 12px
+    }
+    
+    .dropdown-control .dropdown-menu>li.active>a {
+        color: #fff;
+        text-decoration: none;
+        background-color: #7b52a2;
+        outline: 0
+    }
+    
+    
+    
+    }
