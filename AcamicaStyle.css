@@ -204,6 +204,80 @@
         background-color:#424242;
         color:white;
     }
+    .path-line>.level>.handle>span{
+        color:white;
+    }
+    .course-team>.course-team-member>.info{
+        color:white;
+    }
+    .collapse-text a.collapse-toggle{
+        color:#34809b;
+    }
+    .collapse-text a.collapse-toggle:hover{
+    
+        color:#2d9ec6;
+    }
+    
+    span.tag.light a{
+        color:white;
+    }
+    
+    span.tag.light.contrast a{
+        color:#C1C127 !important;
+    }
+    /*Modificar el modulo Programación oriendata a objetos, mismo span.tag light*/
+    
+    /*reviews*/
+    
+    reviews-score .rating .score-details .total {
+        color:white;
+    }
+    
+    ac-top-bar.light button-area a.primary{
+        color:white;
+        background-color:#34809b;
+    }
+    
+    reviews-score .rating{
+        background-color:#34809b;
+        border-radius:10px;
+    }
+    
+    .card .card-top .user-info>span.name{
+        color:#2d9ec6;
+    }
+    
+    user-review.card.box.shadow.o-hidden{
+        border-radius:10px !important;
+    }
+    div.card.box.shadow.o-hidden.repeat-animation{
+        border-radius:10px !important;
+    }
+    
+    /*Se cambia la estrella negra por la blanca de inicio*/
+    .star-rating .bg, .star-rating .bg>span, .star-rating .rating{
+        background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIxOXB4IiB2aWV3Qm94PSIwIDAgMjAgMTkiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiPiAgICAgICAgPHRpdGxlPlNoYXBlPC90aXRsZT4gICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+ICAgIDxkZWZzPjwvZGVmcz4gICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc2tldGNoOnR5cGU9Ik1TUGFnZSI+ICAgICAgICA8cGF0aCBkPSJNMTAsMTUuMjcgTDE2LjE4LDE5IEwxNC41NCwxMS45NyBMMjAsNy4yNCBMMTIuODEsNi42MyBMMTAsMCBMNy4xOSw2LjYzIEwxLjc3NjM1Njg0ZS0xNSw3LjI0IEw1LjQ2LDExLjk3IEwzLjgyLDE5IEwxMCwxNS4yNyBMMTAsMTUuMjcgWiIgaWQ9IlNoYXBlIiBmaWxsPSIjRkZGRkZGIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+ICAgIDwvZz48L3N2Zz4=)
+    }
+    
+    /*configuration*/
+    .check input[type=checkbox]:checked+span, .radio input[type=radio]:checked+span{
+        border-color:#34809b;
+        background-color:#34809b;
+    }
+    .sb .sb-bar>.sb-thumb{
+        background-color: #673AB7  !important;
+    }
+    
+    .sb .sb-bar>.sb-thumb:hover{
+        background-color: #4e337d !important;
+        transition:300ms;
+    }
+    
+    .sb .sb-bar>.sb-track{
+        background-color: #235466 !important;
+        
+    }
+    
     
     
     /* logger */
@@ -238,15 +312,128 @@
     .link-container.side-down-pad a{
         color:white !important;
     }
+    .course-levels .lessons .icon, .course-levels .lessons .number-icon, .course-levels .lessons i{
+        background-color:#414141;
+    }
+    
+    .row-link-list>li>a .status{
+        background-color:#414141;
+    }
+    
     
     .row-link-list>li>a:first-child, .row-list>li{
         background-color: #414141 !important;
        
     }
+    .icon-play-circle{
+        color:white !important;
+    }
+    .icon-assignment{
+        color:white !important;
+    }
     
     .row-link-list>li>a:first-child, .row-list>li .name{
         color:white;
     }
+    
+    
+    /* Carreras */
+    
+    .two-columns .two-columns__content-wrapper .career-card>a{
+        background-color:#62666a;
+        box-shadow: 0 0 10px 2px rgb(12, 12, 12);
+        
+    }
+    .two-columns .two-columns__content-wrapper .career-card>a:hover{
+            box-shadow: 0 0 10px 2px rgb(23, 57, 70);
+        
+    
+    }
+    .theme-2 h5{
+        color:white !important;
+    }
+    .theme-2 h2{
+        color: #c8dfe8 !important;
+    }
+    
+    .theme-2 p{
+        color:white !important;
+    }
+    
+    
+    /* Profile */
+    .side-card .card-content{
+        background-color:#414141 !important;
+        /*background-color:rgb(37, 84, 102) !important;*/
+        color:white !important;
+    }
+    
+    user-profile-public-page .side-card section.user .name{
+        color:white;
+    }
+    user-profile-public-page .side-card section.user .username{
+        color:white;
+    }
+    user-profile-public-page .side-card section.stats ul li .name{
+        color:white;
+    }
+    .list-load-more:link, .list-load-more:visited{
+        background-color:black;
+        color:white;
+    }
+    
+    .icon-view-dashboard{
+        color:white;
+    }
+    ac-horizontal-menu ac-horizontal-menu-item a.selected{
+        color:#673AB7;
+    }
+    
+    .icon-bookmark{
+        color:white;
+    }
+    .icon-graduation-cap{
+        color:white;
+    }
+    .icon-edit{
+        color:white;
+    }
+    
+    
+    /*bookmark*/
+    ac-data-set table td:first-child, ac-data-set table th{
+        color:white;
+    }
+    
+    ac-data-set table td:first-child, ac-data-set table th:hover{
+        color:#2d9ec6;
+    }
+    ac-order-by:not(.active) span:hover{
+        color: #34809b;
+    }
+    
+    ac-order-by:not(.active) span:hover+i{
+        color:#34809b;
+    }
+    ac-order-by.active{
+        color:#34809b;
+    }
+    ac-order-by.active i{
+        color:#34809b;
+    }
+    
+    ac-data-set table td .image+span, ac-data-set table th .image+span{
+        color:white;
+    }
+    
+    ac-data-set table td, ac-data-set table th td{
+        color:white;
+    }
+    ac-data-set table td .image+span:hover{
+        color:#2d9ec6;
+        transition:300ms;
+    }
+    
     /*TY v.2
     
     ***Agregamos www.youtube.com##.ytp-scroll-min.ytp-pause-overlay al adBlock optable además: youtube.com##.ytp-suggestion-set
@@ -316,6 +503,10 @@
         background-color: #7b52a2;
         outline: 0
     }
+    .paused .player-top-bar{
+        display:none !important;
+    }
+    
     
     
     
