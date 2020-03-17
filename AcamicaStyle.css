@@ -91,6 +91,39 @@
         border-color:#333;
     }
     
+    .row-link-list>li i{
+        background:#414141;
+    }
+    
+    ac-exam .timer .percent{
+        background-color:#424242;
+    }
+    
+    .blog-text h1, .blog-text h2, .blog-text h3, ac-exam .explanation .title{
+        color:#424242;
+        
+    }
+    ac-exam .explanation .text{
+        color:#424242;
+    }
+    ac-exam .explanation{
+        color:#fcf3c7c2;
+    }
+    .box>section>h4 {
+        color:white;
+    }
+    
+    .icon-arrow-forward{
+        color:white !important;
+    }
+    .icon-arrow-forward:hover{
+        color:#34809b !important;
+    }
+    
+    .blog-text h1, .blog-text h2, .blog-text h3, ac-exam .explanation .title{
+        color:#bebebe;/*white o 424242?*/
+    }
+    
     /* Estructura de Youtube */
     
     player-progress-bar .hr-yt-loaded{
